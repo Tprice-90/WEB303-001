@@ -2,7 +2,7 @@
 // Terry Price #0622422
 
 $(function (){
-	$('div#solution').css('height', '40px').hide();
+	$('div#solution').css({'height' : '40px' , 'display' : 'none'});
 
 	$('a#vprospect').on('click', function(){
 
