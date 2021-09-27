@@ -6,21 +6,21 @@ $(function (){
 
 	$('a#vprospect').on('click', function(){
 
-		$('div#solution').slideDown(4000, function(){
+		$('div#solution').hide().slideDown(4000, function(){
 			$(this).load('prospect.html');
 		});
 	});
 
 	$('a#vconvert').on('click', function(){
 		
-		$('div#solution').slideDown(4000, function(){
+		$('div#solution').hide().slideDown(4000, function(){
 			$(this).load('convert.html');
 		});
 	});
 
 	$('a#vretain').on('click', function(){
 
-		$('div#solution').slideDown(4000, function(){
+		$('div#solution').hide().slideDown(4000, function(){
 			$(this).load('retain.html');
 		});
 	});
