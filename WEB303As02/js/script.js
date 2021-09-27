@@ -4,6 +4,6 @@
 $(function (){
 	$('a#vconvert').on('click', function(){
 		
-		$('div#solution').load('convert.html').slideDown(3000);
+		$('div#solution').load('convert.html');
 	});
 });
