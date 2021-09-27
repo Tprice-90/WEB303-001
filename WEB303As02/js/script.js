@@ -4,18 +4,24 @@
 $(function (){
 	$('div#solution').css('height', '100px');
 
-	$('#a#vprospect').on('click', function(){
+	$('a#vprospect').on('click', function(){
 
-		$('div#solution').load('prospect.html').slideDown(3000);
+		$('div#solution').slideDown('4000', function(){
+			$(this).load('prospect.html');
+		});
 	});
 
 	$('a#vconvert').on('click', function(){
 		
-		$('div#solution').load('convert.html').slideDown(3000);
+		$('div#solution').slideDown('4000', function(){
+			$(this).load('convert.html');
+		});
 	});
 
 	$('a#vretain').on('click', function(){
 
-		$('div#solution').load('retain.html').slideDown(3000);
+		$('div#solution').slideDown('4000', function(){
+			$(this).load('retain.html');
+		});
 	});
 });
