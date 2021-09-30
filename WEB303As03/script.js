@@ -3,12 +3,11 @@
 
 $(function () {
 	$.getJSON("team.json").done(function (data) {
-		console.log("Container: ", data);
-		$.each(data.teammembers, function (index, value) {
-			$(`div#team${index}`).html(`
+		$.each(data.teammembers, function(index, value) {
+			$(`#team${index}`).html(`
 			<h3>${value.name}</h3>
 			<h4>${value.title}</h4>
-			<p>${value.bio}</p>`);
+			<p>${value.bio}</p>
+			`);
 		});
-	});
 });
