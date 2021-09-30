@@ -3,6 +3,7 @@
 
 $(function () {
 	$.getJSON("team.json").done(function (data) {
+		console.log("Container: ", data);
 		$.each(data.teammembers, function (index, value) {
 			$(`div#team${index}`).html(`
 			<h3>${value.name}</h3>
