@@ -28,7 +28,7 @@ class ContentCard {
     }
 
     toString() {
-        return `<div id=content-${this.id}<h4>${this.title}</h4><p>${this.descirption}</p><div>${this.category}</div></div>`;
+        return `<div id='content-${this.id}' style="border:5px solid red"><h4>${this.title}</h4><p>${this.descirption}</p><div>${this.category}</div></div>`;
     }
 }
 
@@ -41,7 +41,4 @@ let contentCardArray = [
 ];
 
 let div = document.getElementById('content-list');
-
-contentCardArray.forEach(function(item){
-    div.append(item);
-});
+div.innerHTML = contentCardArray;
