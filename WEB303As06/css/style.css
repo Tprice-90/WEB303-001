@@ -1,0 +1,161 @@
+#event0, #event1, #event3{
+    height: 500px;
+    display: none;
+}
+body {
+    width: 960px;
+    margin: 0 auto;
+    background-color: darkred;
+}
+#intro {
+    width: 50%;
+    margin: 0 auto;
+}
+img {
+    display: block;
+    border: 1px solid black;
+    width: inherit;
+    margin: 0 auto;
+}
+p {
+    font-size: 20px;
+}
+li {
+    list-style-type: none;
+}
+/*Bio Accordion*/
+ul.bio{
+    list-style-type: none;
+    padding-left: 0;
+}
+.bioList {
+    width: 50%;
+    padding: 5px;
+}
+.bioControl{
+    display: block;
+    text-align: center;
+    color: #000;
+    background-color:rgb(243, 13, 13);
+    border: 1px solid #000;
+    border-bottom: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.bioControl:hover{
+    text-decoration: underline;
+}
+li:last-child .bioControl{
+    border-bottom: 1px solid #000;
+}
+li:last-child .bioControl.active{
+    border-bottom: 0px;
+}
+.bioPanel{
+    display: none;
+    background-color: #000;
+    border: 1px solid rgb(250, 5, 5);
+    border-top: 0;
+    border-bottom:0;
+    padding: 16px;
+}
+.bioPic {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.bioPanel p {
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+li:last-child .bioPanel{
+    border-bottom: 1px solid #000;
+}
+
+/*Album Accordion*/
+ul.album{
+    list-style-type: none;
+    padding-left: 0;
+}
+.albumControl{
+    display: block;
+    text-align: center;
+    color: #000;
+    background-color:rgb(243, 13, 13);
+    border: 1px solid #000;
+    border-bottom: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.albumControl:hover{
+    text-decoration: underline;
+}
+li:last-child .albumControl{
+    border-bottom: 1px solid #000;
+}
+li:last-child .albumControl.active{
+    border-bottom: 0px;
+}
+.albumPanel{
+    display: none;
+    background-color: black;
+    border: 1px solid #000;
+    border-top: 0;
+    border-bottom:0;
+    padding: 16px;
+}
+.albumPanel p {
+    color: #fff;
+    font-size: 16px;
+}
+li:last-child .albumPanel{
+    border-bottom: 1px solid #000;
+}
+
+/*Art Tab*/
+.artList{
+    list-style-type: none;
+    padding: 0px;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 10;
+}
+.artList li{
+    display: inline-block;
+    width: 24%;
+}
+.artList li a{
+    display: block;
+    text-align: center;
+    background-color: rgb(245, 12, 12);
+    border: 3px solid #000;
+    color: #000;
+    text-decoration: none;
+}
+.artList li.active a{
+    color: #fff;
+    border-bottom: 3px solid rgb(245, 12, 12);
+}
+.artPanel {
+    display: none;
+    padding: 16px;
+    border: 1px solid #000;
+    margin-top: -1px;
+    position: relative;
+    z-index: 1;
+}
+.artImg {
+    display: block;
+    width: 50%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+.artPanel p {
+    font-size: 12px;
+    text-align: center;
+}
+.artPanel.active {
+    display: block;
+}
