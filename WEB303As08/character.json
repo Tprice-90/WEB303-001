@@ -1,0 +1,65 @@
+{
+    "characters": [
+        {
+            "name": "Harry Potter",
+            "birthdate": "1980-07-31",
+            "occupation": "Head of Auror Office",
+            "house": "Gryffindor"
+        },
+        {
+            "name":"Hermione Granger",
+            "birthdate":"1979-11-17",
+            "occupation":"Minister of Magic",
+            "house":"Gryffindor" 
+        },
+        {
+            "name":"Ron Weasley",
+            "birthdate":"1980-03-01",
+            "occupation":"Weasleys' Wizard Wheezes",
+            "house":"Gryffindor"
+        },
+        {
+            "name":"Draco Malfoy",
+            "birthdate":"1980-06-05",
+            "occupation":"",
+            "house":"Slytherin"
+        },
+        {
+            "name":"Severus Snape",
+            "birthdate":"1960-01-09",
+            "occupation":"Potions Master",
+            "house":"Slytherin"
+        },
+        {
+            "name":"Neville Longbottom",
+            "birthdate":"1980-07-30",
+            "occupation":"Herbology Professor",
+            "house":"Gryffindor"
+        },
+        {
+            "name":"Luna Lovegood",
+            "birthdate":"1981-02-13",
+            "occupation":"Magizoologist",
+            "house":"Ravenclaw"
+        },
+        {
+            "name":"Tom Riddle",
+            "birthdate":"1926-12-31",
+            "occupation":"Shop Assistant",
+            "house":"Slytherin"
+        },
+        {
+            "name":"Nymphadora Tonks",
+            "birthdate":"1972-09-01",
+            "occupation":"Auror",
+            "house":"Hufflepuff"
+        },
+        {
+            "name":"Cedric Diggory",
+            "birthdate":"1977-10-30",
+            "occupation":"Student",
+            "house":"Hufflepuff"
+        }
+
+    ]
+}
