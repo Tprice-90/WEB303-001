@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Harry Potter Characters</title>
+        <link href="./style.css" rel="stylsheet"/>
+        <style>
+            .highlight{
+                background-color: yellow;
+            }
+            .up::before {
+                content: "\25B2";
+            }
+            .down::before {
+                content: "\25BC";
+            }
+        </style>
+    </head>
+    <body>
+        <div class="filter">
+            <input type="text" id="filter-char" placeholder="Filter">
+        </div>
+        <table border="1">
+            <thead>
+                <th><a data-sort="name" class="sorting">Name</a></th>
+                <th><a data-sort="date" class="sorting">Birthdate</a></th>
+                <th><a data-sort="name" class="sorting">Occupation</a></th>
+                <th><a data-sort="name" class="sorting">House</a ></th>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/script.js" type="text/javascript"></script>
+    </body>
+</html>
