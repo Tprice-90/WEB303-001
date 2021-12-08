@@ -1,0 +1,16 @@
+input, label {
+    display: block;
+}
+input{
+    width: 30%;
+    padding: 12px, 20px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color: greenyellow;
+    width: 10%;
+    margin-top: 10px;
+}
+input[type=submit].disabled {
+    background-color: red;
+}

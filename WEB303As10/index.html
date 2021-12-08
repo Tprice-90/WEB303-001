@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Form Validation</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="container">
+            <form method="POST" action="/register" name="register" id="form">
+                <label for="username">User Name</label>
+                <input type="text" id="username" name="username" />
+                <label for="password1">Password</label>
+                <input type="password" id="password1" name="password1" />
+                <label for="password2">Re-enter Password</label>
+                <input type="password" id="password2" name="password2" />
+                <label for="tOs">Check if you have accept the Terms of Service</label>
+                <input type="checkbox" name="tOs" id="tOs" value="accept">
+                <label for="country">Select a Country</label>
+                <select id="country" name="country">
+                </select>
+                <input type="submit" value="Submit!" id="submit" />
+            </form>
+            <div id="welcome"></div>
+        </div>
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/script.js" type="text/javascript"></script>
+    </body>
+</html>
